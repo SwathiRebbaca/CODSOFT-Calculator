@@ -1,0 +1,49 @@
+
+body {
+    background-image: url('image.jpeg'); /* Replace with your image path */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    }
+    table {
+        border: 2px solid gray;
+        border-collapse: collapse;
+        background-color: rgba(255, 255, 255, 0.7); /* Background color with transparency */
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    }
+
+    td {
+        text-align: center;
+    }
+
+    input[type="text"] {
+        font-weight: bold;
+        font-size: 18px;
+        width: 230px;
+        height: 50px;
+    }
+
+    .b1 {
+        width: 60px;
+        height: 60px;
+        font-size: 20px;
+        background-color: #4CAF50; /* Change the button color as needed */
+        color: white;
+        border: none;
+        cursor: pointer;
+    }
+
+    /* Add button hover effect */
+    .b1:hover {
+        background-color: #45a049; /* Darker color on hover */
+    }
+
+
+
+       
